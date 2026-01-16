@@ -12,7 +12,7 @@ export interface Food {
 export interface User {
   id: string
   email?: string
-  user_metadata?: Record<string, any>
+  user_metadata?: Record<string, unknown>
 }
 
 export interface AuthState {
