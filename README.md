@@ -12,6 +12,11 @@ A full-stack nutrition tracking app built with React, TypeScript, Vite, and Supa
 - 🔒 **Data Privacy** - Row-level security policies
 - ✅ **Input Validation** - Client-side validation with error messages
 
+## Screenshot
+
+<img width="1010" height="1226" alt="image" src="https://github.com/user-attachments/assets/0369932c-97c4-47e1-8b90-e28241e6392e" />
+
+
 ## Project Structure
 
 ```
