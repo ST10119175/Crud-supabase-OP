@@ -1,5 +1,5 @@
 import supabase from '../utils/supabase'
-import { Food } from '../types'
+import type { Food } from '../types'
 import { API_ENDPOINTS } from '../constants'
 
 export const foodService = {

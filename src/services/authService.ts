@@ -1,4 +1,5 @@
 import supabase from '../utils/supabase'
+import type { User } from '../types'
 
 export const authService = {
   async signUp(email: string, password: string) {
@@ -41,8 +42,8 @@ export const authService = {
     return data.user
   },
 
-  onAuthStateChange(callback: (isAuthenticated: boolean, user: any) => void) {
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+  onAuthStateChange(callback: (isAuthenticated: boolean, user: User | null) => void) {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       callback(!!session, session?.user || null)
     })
 
