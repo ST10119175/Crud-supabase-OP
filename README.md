@@ -14,7 +14,8 @@ A full-stack nutrition tracking app built with React, TypeScript, Vite, and Supa
 
 ## Screenshot
 
-<img width="1010" height="1226" alt="image" src="https://github.com/user-attachments/assets/0369932c-97c4-47e1-8b90-e28241e6392e" />
+<img width="1010" height="1226" alt="image" src="https://github.com/user-attachments/assets/9b893e9a-e73e-44da-9dd0-98b8ce35fb6e" />
+
 
 
 ## Project Structure
